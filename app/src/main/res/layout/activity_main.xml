@@ -28,22 +28,31 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="236dp"
         android:text="San Francisco, CA"
-        android:textSize="18sp"/>
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="148dp"
+        android:layout_marginBottom="168dp"
         android:layout_toStartOf="@+id/textView"
         android:background="@drawable/shadow"
         android:drawableLeft="@drawable/chat"
         android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="139dp"
+        android:layout_marginLeft="82dp"
+        android:text="Chat" />
 
     <Button
         android:id="@+id/button2"
@@ -55,6 +64,14 @@
         android:drawableLeft="@drawable/gallery"
         android:paddingLeft="20dp" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="Gallery" />
+
     <Button
         android:id="@+id/button3"
         android:layout_width="70dp"
@@ -64,6 +81,15 @@
         android:background="@drawable/shadow"
         android:drawableLeft="@drawable/facebook"
         android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="72dp"
+        android:text="Location" />
 
     <Button
         android:id="@+id/button4"
@@ -75,16 +101,34 @@
         android:drawableLeft="@drawable/music"
         android:paddingLeft="20dp" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="23dp"
+        android:layout_marginLeft="75dp"
+        android:text="Friends" />
+
     <Button
         android:id="@+id/button5"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="57dp"
         android:layout_toStartOf="@+id/textView"
         android:background="@drawable/shadow"
         android:drawableLeft="@drawable/friends"
         android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:text="Music" />
 
     <Button
         android:id="@+id/button6"
@@ -95,4 +139,12 @@
         android:background="@drawable/shadow"
         android:drawableLeft="@drawable/notification"
         android:paddingLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_toEndOf="@+id/textView"
+        android:text="Notification" />
 </RelativeLayout>
